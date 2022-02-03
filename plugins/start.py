@@ -22,8 +22,8 @@ async def pm_start(_, message: Message):
     user_id = message.from_user.id
     if message.chat.type == "private":
         if len(message.command) == 1:
-            return await bot.send_message(
-                chat_id,
+            return await message.reply_sticker("CAACAgQAAxkBAAEDsTZh4xBVu96tWo0G0CIbn_meSGs6LwACWxcAAqbxcR4yeTJRtPe4UCME")
+               ( chat_id,
                 "pm_greet",
                 format_key=str(mention),
                 markup=start_markup(chat_id, bot_username),
