@@ -22,13 +22,37 @@ async def pm_start(_, message: Message):
     user_id = message.from_user.id
     if message.chat.type == "private":
         if len(message.command) == 1:
-            return await message.reply_sticker("CAACAgQAAxkBAAEDsTZh4xBVu96tWo0G0CIbn_meSGs6LwACWxcAAqbxcR4yeTJRtPe4UCME")
-               ( chat_id,
-                "pm_greet",
-                format_key=str(mention),
-                markup=start_markup(chat_id, bot_username),
-                delete=0
-            )
+            return await message.reply_photo(
+        photo=f"https://telegra.ph/file/d5b04ae52dc6d7703c8e8.jpg",
+        caption=f"""**━━━━━━━━━━━━━━━━━━━━━━
+🖤 ʜᴇʏ, ɪ ᴀᴍ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs...
+ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ᴄʀᴇᴀᴛᴏʀ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦 🖤 𝗕𝗢𝗬](t.me/anonymous_was_bot)
+┗━━━━━━━━━━━━━━━━━┛
+
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/anonymous_was_bot) ʙᴀʙʏ...
+━━━━━━━━━━━━━━━━━━━━━━**""",
+    reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "😫ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ​😫", url="https://t.me/fallen_music_bot?startgroup=true")
+                  ],[
+                    InlineKeyboardButton(
+                        "😘ᴄʀᴇᴀᴛᴏʀ😘", url="https://t.me/anonymous_was_bot"
+                    ),
+                    InlineKeyboardButton(
+                        "💔sᴜᴘᴘᴏʀᴛ💔", url="https://t.me/DevilsHeavenMF"
+                    )
+                ],[ 
+                    InlineKeyboardButton(
+                        "🤔sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​🤔", url="https://t.me/DevilsHeavenMF"
+                    )]
+            ]
+       ),
+    )
+
         if len(message.command) >= 2:
             query = message.command[1]
             if query.startswith("ytinfo_"):
