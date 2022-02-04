@@ -58,7 +58,7 @@ async def pm_start(_, message: Message):
     )
 
 
-        if len(message.command) >= 2:
+        if len(message.command) == 2:
             query = message.command[1]
             if query.startswith("ytinfo_"):
                 link = query.split("ytinfo_")[1]
