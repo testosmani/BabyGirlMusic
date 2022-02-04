@@ -9,21 +9,22 @@ from core.bot import Bot
 from database.lang_utils import get_message as gm
 from functions.youtube_utils import get_yt_details, download_yt_thumbnails
 
-bot = Bot()
+
 
 
 @Client.on_message(filters.command("start"))
 async def pm_start(_, message: Message):
-    bot_username = (await bot.get_me()).username
-    bot_name = (await bot.get_me()).first_name
+    bot = await Bot().get_me()
+    bot_username = bot.username
+    bot_name = bot.first_name
     chat_id = message.chat.id
     mention = message.from_user.mention
     user_id = message.from_user.id
     if message.chat.type == "private":
         if len(message.command) == 1:
             return await message.reply_text("💔 **ʜᴇʏ {} !**\n\n**ɪ'ᴍ [{}](t.me/{}),**\n**ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**".format(
-          message.from_user.mention(), bot_name, bot_username
-          ), ),
+          message.from_user.mention, bot_name, bot_username
+          ),
         reply_markup=InlineKeyboardMarkup(
         [
             [
@@ -50,6 +51,7 @@ async def pm_start(_, message: Message):
             ],
         ]
     )
+  )
 
 
         if len(message.command) >= 2:
