@@ -21,7 +21,6 @@ async def pm_start(_, message: Message):
     user_id = message.from_user.id
     if message.chat.type == "private":
         if len(message.command) == 1:
-            msg = START_TEXT.format(message.from_user.mention(), bot_name, bot_username)
             return await message.reply_text(""**ʜᴇʏ {} !**\n\n**ɪ ᴍ [{}](t.me/{}),**\n**ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**\n**━━━━━━━━━━━━━━━━━━**".format(
           message.from_user.mention(), bot_name, bot_username), ),
                                 reply_markup = InlineKeyboardMarkup(
