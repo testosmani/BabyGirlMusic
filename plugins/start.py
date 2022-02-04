@@ -24,7 +24,12 @@ async def pm_start(_, message: Message):
             await message.reply_sticker("CAACAgUAAx0CZIiVngACOsth_WQtWVQhHeIMyg9IKsGTXtr7GwACaAUAAoMOOFZMrCdgPGw4nSME")
             await message.reply_photo(
                 photo=f"https://telegra.ph/file/053f99956ccee8416b8f7.jpg",
-                caption=f"""💔 **ʜᴇʏ {} !**\n\n**ɪ'ᴍ [{}](t.me/{}),**\n**ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**\n""",
+                caption=f"""**💔 ʜᴇʏ {} !
+
+ɪ'ᴍ [{}](t.me/{}),
+ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !
+ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !
+━━━━━━━━━━━━━━━━━━━**""",
         reply_markup=InlineKeyboardMarkup(
         [
             [
