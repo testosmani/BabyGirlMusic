@@ -22,7 +22,7 @@ async def pm_start(_, message: Message):
     if message.chat.type == "private":
         if len(message.command) == 1:
             return await message.reply_text("💔 **ʜᴇʏ {} !**\n**ɪ'ᴍ {}, ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n🖤**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ !".format(
-          message.from_user.mention(), bot.get_me()).first_name
+          message.from_user.mention(), bot.get_me().first_name
           ), )
         reply_markup=InlineKeyboardMarkup(
         [
