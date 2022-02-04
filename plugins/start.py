@@ -23,7 +23,7 @@ async def pm_start(_, message: Message):
         if len(message.command) == 1:
             return await message.reply_text("💔 **ʜᴇʏ, {} !**\n** ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n🖤**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ !"),
             def start_markup(chat_id: int, bot_username: str):
-    return InlineKeyboardMarkup(
+    reply_markup=InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton( 
