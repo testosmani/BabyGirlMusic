@@ -21,8 +21,8 @@ async def pm_start(_, message: Message):
     user_id = message.from_user.id
     if message.chat.type == "private":
         if len(message.command) == 1:
-            return await message.reply_text("💔 **ʜᴇʏ {} !**\n\n**              ɪ'ᴍ {} [𝗗𝝣∇𝗜𝗟 ✘ 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧](t.me/DevilXRobot),\nɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**".format(
-          message.from_user.mention(), bot_name
+            return await message.reply_text("💔 **ʜᴇʏ {} !**\n\n**              ɪ'ᴍ [{}](t.me/{}),\nɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**".format(
+          message.from_user.mention(), bot_name, bot_username
           ), )
         reply_markup=InlineKeyboardMarkup(
         [
