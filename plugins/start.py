@@ -7,7 +7,6 @@ from pyrogram.types import (
 
 from core.bot import Bot
 from database.lang_utils import get_message as gm
-from functions.markup_button import start_markup
 from functions.youtube_utils import get_yt_details, download_yt_thumbnails
 
 bot = Bot()
