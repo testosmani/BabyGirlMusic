@@ -21,9 +21,12 @@ async def pm_start(_, message: Message):
     user_id = message.from_user.id
     if message.chat.type == "private":
         if len(message.command) == 1:
-            return await message.reply_text("💔 **ʜᴇʏ {} !**\n\n**ɪ'ᴍ [{}](t.me/{}),**\n**ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**".format(
+            await message.reply_sticker("CAACAgUAAx0CZIiVngACOsth_WQtWVQhHeIMyg9IKsGTXtr7GwACaAUAAoMOOFZMrCdgPGw4nSME")
+            await message.reply_photo(
+                photo=f"https://telegra.ph/file/053f99956ccee8416b8f7.jpg",
+                caption=f"""💔 **ʜᴇʏ {} !**\n\n**ɪ'ᴍ [{}](t.me/{}),**\n**ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**""".format(
           message.from_user.mention(), bot_name, bot_username
-          ), ),
+          ),
         reply_markup=InlineKeyboardMarkup(
         [
             [
