@@ -21,7 +21,35 @@ async def pm_start(_, message: Message):
     user_id = message.from_user.id
     if message.chat.type == "private":
         if len(message.command) == 1:
-            return await message.reply_text("💔 **ʜᴇʏ, {} !**\n** ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n🖤**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ !")
+            return await message.reply_text("💔 **ʜᴇʏ, {} !**\n** ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ɴᴇᴡ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n🖤**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴄᴏᴍᴍᴀɴᴅs ʙᴜᴛᴛᴏɴ !"),
+            def start_markup(chat_id: int, bot_username: str):
+    return InlineKeyboardMarkup(
+        [
+            [
+                InlineKeyboardButton( 
+                   "😅 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ ​😅", url=f"https://t.me/{bot_username}?startgroup=true"
+                ),
+            ],
+            [
+                InlineKeyboardButton("🤔 ʜᴇʟᴘ​ 🤔", callback_data="cbhelp"),
+                InlineKeyboardButton(
+                    "💕 ᴍᴀɪɴᴛᴀɪɴᴇʀ 💕​", url="https://t.me/anonymous_was_bot"
+                ),
+            ],
+            [
+                InlineKeyboardButton("😇 ᴄʜᴀɴɴᴇʟ​ 😇", url=config.CHANNEL_LINK),
+                InlineKeyboardButton(
+                    "💔 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ​💔", url="https://t.me/DevilsHeavenMF"
+                ),
+            ],
+            [
+                InlineKeyboardButton(
+                    "🙄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🙄​", url="https://t.me/DevilsHeavenMF",
+                )
+            ],
+        ]
+    )
+
 
         if len(message.command) >= 2:
             query = message.command[1]
