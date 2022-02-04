@@ -28,34 +28,3 @@ def process_button(user_id: int, streaming_status: str):
         if count == len(board):
             keyboard.append(temp)
     return keyboard
-
-
-def start_markup(chat_id: int, bot_username: str):
-    return InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton(
-                    gm(chat_id, "add_to_chat"),
-                    url=f"https://t.me/{bot_username}?startgroup=true",
-                )
-            ],
-            [
-                InlineKeyboardButton(gm(chat_id, "helpbutton"), callback_data="cbhelp"),
-                InlineKeyboardButton(
-                    gm(chat_id, "maintainer"), url="https://t.me/anonymous_was_bot"
-                ),
-            ],
-            [
-                InlineKeyboardButton(gm(chat_id, "channel"), url=config.CHANNEL_LINK),
-                InlineKeyboardButton(
-                    gm(chat_id, "group_support"), url="https://t.me/DevilsHeavenMF"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    gm(chat_id, "source_code"),
-                    url="https://github.com/AnonymousBoy1025/VCPlayer",
-                )
-            ],
-        ]
-    )
