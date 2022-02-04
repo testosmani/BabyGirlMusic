@@ -1,6 +1,7 @@
 import json
+import logging
 from os import path, listdir
-
+from os.path import join, dirname, realpath
 from pyrogram import emoji
 
 from .chat_database import ChatDB
@@ -49,3 +50,17 @@ def get_lang(lang: str = None):
     if lang:
         return langs[lang]
     return kode
+
+
+async def gm(chat_id: int, key: str, format_key=None) -> str:
+    if format_key is None:
+        format_key = [""]
+    chat_lang = (await chat_db.get_chat(chat_id))["lang"]
+    try:
+        return langs[chat_lang][key].format(*format_key)
+    except (IndexError, KeyError):
+        try:
+            logging.warning(" set your language by using /lang command!")
+            return langs["en"][key].format(*format_key)
+        except KeyError:
+            return f"`Error`:\n**can't get lang with key: {key}**"
