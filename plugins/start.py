@@ -57,9 +57,3 @@ async def pm_start(_, message: Message):
         ]
     )
 
-
-
-__cmds__ = ["start"]
-__help__ = {
-    "start": "help_start"
-}
