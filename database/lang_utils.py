@@ -55,7 +55,7 @@ def get_lang(lang: str = None):
 async def gm(chat_id: int, key: str, format_key=None) -> str:
     if format_key is None:
         format_key = [""]
-    chat_lang = (await chat_db.get_chat(chat_id))["lang"]
+    chat_lang = (await db.get_chat(chat_id))["lang"]
     try:
         return langs[chat_lang][key].format(*format_key)
     except (IndexError, KeyError):
