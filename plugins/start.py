@@ -21,10 +21,19 @@ async def pm_start(_, message: Message):
     user_id = message.from_user.id
     if message.chat.type == "private":
         if len(message.command) == 1:
-            return await message.reply_text("💔 **ʜᴇʏ {} !**\n\n**ɪ'ᴍ [{}](t.me/{}),\nɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**\n**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**".format(
-          message.from_user.mention(), bot_name, bot_username
-          ), ),
-        reply_markup=InlineKeyboardMarkup(
+            msg = START_TEXT.format(message.from_user.mention(), bot_name, bot_username)
+            return await message.reply_text(text = msg,
+                                            reply_markup = START_BUTTONS)
+
+
+   START_TEXT = """💔 **ʜᴇʏ {} !**\n\n**ɪ'ᴍ [{}](t.me/{}),
+ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀɴʏ ᴍᴇᴅɪᴀ ɪɴ ɢʀᴏᴜᴘ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ ꜰᴇᴀᴛᴜʀᴇ !**
+**ꜰɪɴᴅ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ʙʏ ᴄʟɪᴄᴋɪɴɢ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ !**
+━━━━━━━━━━━━━━━━━━━━━━
+"""
+
+
+   START_BUTTONS = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton( 
