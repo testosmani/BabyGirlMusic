@@ -29,24 +29,24 @@ async def pm_start(_, message: Message):
         [
             [
                 InlineKeyboardButton( 
-                   text="😅 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ ​😅", url=f"https://t.me/{bot_username}?startgroup=true"
+                   "😅 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ ​😅", url=f"https://t.me/{bot_username}?startgroup=true"
                 ),
             ],
             [
                 InlineKeyboardButton(chat_id, text="🤔 ʜᴇʟᴘ​ 🤔", callback_data="cbhelp"),
                 InlineKeyboardButton(
-                    text="💕 ᴍᴀɪɴᴛᴀɪɴᴇʀ 💕​", url="https://t.me/anonymous_was_bot"
+                    "💕 ᴍᴀɪɴᴛᴀɪɴᴇʀ 💕​", url="https://t.me/anonymous_was_bot"
                 ),
             ],
             [
-                InlineKeyboardButton(text="😇 ᴄʜᴀɴɴᴇʟ​ 😇", url="https://t.me/DevilsHeavenMF"),
+                InlineKeyboardButton("😇 ᴄʜᴀɴɴᴇʟ​ 😇", url="https://t.me/DevilsHeavenMF"),
                 InlineKeyboardButton(
-                    text="💔 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ​💔", url="https://t.me/DevilsHeavenMF"
+                    "💔 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ​💔", url="https://t.me/DevilsHeavenMF"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🙄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🙄​", url="https://t.me/DevilsHeavenMF",
+                    "🙄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🙄​", url="https://t.me/DevilsHeavenMF",
                 )
             ],
         ]
