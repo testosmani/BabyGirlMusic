@@ -33,7 +33,7 @@ async def pm_start(_, message: Message):
                 ),
             ],
             [
-                InlineKeyboardButton(text="🤔 ʜᴇʟᴘ​ 🤔", callback_data="cbhelp"),
+                InlineKeyboardButton(chat_id, text="🤔 ʜᴇʟᴘ​ 🤔", callback_data="cbhelp"),
                 InlineKeyboardButton(
                     text="💕 ᴍᴀɪɴᴛᴀɪɴᴇʀ 💕​", url="https://t.me/anonymous_was_bot"
                 ),
