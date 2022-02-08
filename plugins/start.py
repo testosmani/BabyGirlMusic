@@ -29,24 +29,24 @@ async def pm_start(_, message: Message):
         [
             [
                 InlineKeyboardButton( 
-                   "😅 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ ​😅", url=f"https://t.me/{bot_username}?startgroup=true"
+                   text="😅 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ ​😅", url=f"https://t.me/{bot_username}?startgroup=true"
                 ),
             ],
             [
-                InlineKeyboardButton(chat_id, "🤔 ʜᴇʟᴘ​ 🤔", callback_data="cbhelp"),
+                InlineKeyboardButton(text="🤔 ʜᴇʟᴘ​ 🤔", url="https://t.me/{bot_username}?start=help"),
                 InlineKeyboardButton(
-                    "💕 ᴍᴀɪɴᴛᴀɪɴᴇʀ 💕​", url="https://t.me/anonymous_was_bot"
+                    text="💕 ᴍᴀɪɴᴛᴀɪɴᴇʀ 💕​", url="https://t.me/anonymous_was_bot"
                 ),
             ],
             [
-                InlineKeyboardButton("😇 ᴄʜᴀɴɴᴇʟ​ 😇", url="https://t.me/DevilsHeavenMF"),
+                InlineKeyboardButton(text="😇 ᴄʜᴀɴɴᴇʟ​ 😇", url=https://t.me/DevilsHeavenMF",
                 InlineKeyboardButton(
-                    "💔 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ​💔", url="https://t.me/DevilsHeavenMF"
+                    text="💔 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ​💔", url="https://t.me/DevilsHeavenMF"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    "🙄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🙄​", url="https://t.me/DevilsHeavenMF",
+                    text="🙄 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🙄​", url="https://t.me/DevilsHeavenMF",
                 )
             ],
         ]
