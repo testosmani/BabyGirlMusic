@@ -39,7 +39,7 @@ async def pm_start(_, message: Message):
                 ),
             ],
             [
-                InlineKeyboardButton(text="😇 ᴄʜᴀɴɴᴇʟ​ 😇", url="https://t.me/DevilsHeavenMF",
+                InlineKeyboardButton(text="😇 ᴄʜᴀɴɴᴇʟ​ 😇", url="https://t.me/DevilsHeavenMF"),
                 InlineKeyboardButton(
                     text="💔 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ​💔", url="https://t.me/DevilsHeavenMF"
                 ),
