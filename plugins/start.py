@@ -33,7 +33,7 @@ async def pm_start(_, message: Message):
                 ),
             ],
             [
-                InlineKeyboardButton(text="🤔 ʜᴇʟᴘ​ 🤔", url="https://t.me/{bot_username}?start=help"),
+                InlineKeyboardButton(text="🤔 ʜᴇʟᴘ​ 🤔", url=f"https://t.me/{bot_username}?start=help"),
                 InlineKeyboardButton(
                     text="💕 ᴍᴀɪɴᴛᴀɪɴᴇʀ 💕​", url="https://t.me/anonymous_was_bot"
                 ),
@@ -97,7 +97,7 @@ async def pm_start(_, message: Message):
                             [
                                 InlineKeyboardButton(
                                     f"{gm(chat_id, 'commands')}",
-                                    url="https://telegra.ph/The-Bot-Command-11-14",
+                                    url="https://telegra.ph/VC-PLAYER-COMMANDS-02-08",
                                 )
                             ]
                         ]
