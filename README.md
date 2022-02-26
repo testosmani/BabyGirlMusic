@@ -2,7 +2,7 @@
 <p>
 
 <p align="center">
-    <a href="https://github.com/AnonymousBoy1025/VCPlayer/stargazers"><img src="https://img.shields.io/github/stars/AnonymousBoy1025/VCPlayer?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
+    <a href="https://github.com/AnonymousBoy1025/BabyGirlMusic/stargazers"><img src="https://img.shields.io/github/stars/AnonymousBoy1025/VCPlayer?label=Stars&style=flat-square&logo=github&color=F10070" alt="Stars" /></a>
 </p>
 <p align="center">
     <a href="https://github.com/AnonymousBoy1025/VCPlayer"> <img src="https://img.shields.io/github/repo-size/AnonymousBoy1025/VCPlayer?color=orange&logo=github&logoColor=green&style=for-the-badge" /></a>
