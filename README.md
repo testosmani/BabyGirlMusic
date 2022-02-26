@@ -57,7 +57,7 @@ and <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 - [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://github.com/AnonymousBoy1025): Developer
 
 ### Support 🎑
-<a href="https://telegram.me/DevilsHeavenMF"><img src="https://img.shields.io/badge/@-DevilsHeavenMF-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/DevilsHeavenMF"><img src="https://img.shields.io/badge/-DevilsHeavenMF-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 ------------------------------------------------
 -------------------------------------------------
