@@ -48,31 +48,31 @@ START_TEXT = """
 ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /
 ┏━━━━━━━━━━━━━━━━┓
 ┣★
-┣★ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](tg://user?id=1356469075)
+┣★ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ᶫᵒᵛᵉᵧₒᵤ](tg://user?id=1008271006)
 ┣★
-┣★ ᴏᴡɴᴇʀ : [ɪᴛ's ᴍᴇ ʙᴀʙʏ​](tg://user?id={})
+┣★ ᴏᴡɴᴇʀ : [𝗺𝗮𝗻𝗮𝗴𝗲​](tg://user?id=1008271006)
 ┣★
 ┗━━━━━━━━━━━━━━━━┛
 
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](tg://user?id={}) ʙᴀʙʏ...
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](tg://user?id=1008271006) ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝...
 ━━━━━━━━━━━━━━━━━━**
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("✗ ᴡᴀɴɴᴀ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ ✗", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+            InlineKeyboardButton(" ᴡᴀɴɴᴀ ᴀᴅᴅ ᴍᴇ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ᶫᵒᵛᵉᵧₒᵤ​ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-            InlineKeyboardButton("✗ ʜᴇʟᴘ​ ✗", callback_data="cbcmds"),
-            InlineKeyboardButton("✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/anonymous_was_bot")
+            InlineKeyboardButton("🤘 ʜᴇʟᴘ​🤘", callback_data="cbcmds"),
+            InlineKeyboardButton("✌ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✌", url="https://t.me/ribajosmani")
         ],
         [
-            InlineKeyboardButton("✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/DevilsHeavenMF"),
-            InlineKeyboardButton("✗ ᴜᴘᴅᴀᴛᴇs ✗", url="https://t.me/DevilsHeavenMF")
+            InlineKeyboardButton("🇸🇴 sᴜᴘᴘᴏʀᴛ 🇸🇴", url="https://t.me/osmanigroupbot"),
+            InlineKeyboardButton("📢 ᴜᴘᴅᴀᴛᴇs 📢", url="https://t.me/teamosmani")
         ],
         [
-            InlineKeyboardButton("✗ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ✗", url="https://github.com/AnonymousBoy1025/BabyGirlMusic")
+            InlineKeyboardButton("⚔ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ⚔", url="https://github.com/Ribaj")
         ]
     ]
 )
@@ -80,8 +80,8 @@ START_BUTTONS = InlineKeyboardMarkup(
 BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="✗ sᴜᴘᴘᴏʀᴛ ✗", url="https://t.me/DevilsHeavenMF"),
-            InlineKeyboardButton(text="✗ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✗", url="https://t.me/anonymous_was_bot")
+            InlineKeyboardButton(text="🇸🇴 sᴜᴘᴘᴏʀᴛ 🇸🇴", url="https://t.me/osmanigroupbot"),
+            InlineKeyboardButton(text="🚀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🚀", url="https://t.me/ribajosmani")
         ]
     ]
 )
@@ -207,13 +207,13 @@ async def cbcmds(_, query: CallbackQuery):
 » /unmute - UnMute The Assistant On Voice Chat
 » /playlist - Show You The Playlist
 » /restart - Restart The Bot
-🥵 __𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘉𝘺 𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦__ 🥵""")
+🤖 __𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘉𝘺 ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝__ 🤖""")
 
 
 @bot.on_message(filters.command("start") & filters.private)
 async def start_private(_, message):
     msg = START_TEXT.format(message.from_user.mention, OWNER_ID, OWNER_ID)
-    await message.reply_photo(photo="https://telegra.ph/file/22ae93512721d5186932e.jpg",
+    await message.reply_photo(photo="https://telegra.ph/file/351ca05cfa76bf7b9e058.jpg",
                              caption = msg,
                              reply_markup = START_BUTTONS)
     
@@ -228,15 +228,15 @@ async def join_chat(c: Client, m: Message):
                 "https://t.me/+", "https://t.me/joinchat/"
             )
             await client.join_chat(invitelink)
-            return await client.send_message(chat_id, "🙂ᴀssɪsᴛᴀɴᴛ sᴜᴄᴄᴇssꜰᴜʟʟʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ ʙᴀʙʏ.")
+            return await client.send_message(chat_id, "🙂ᴀssɪsᴛᴀɴᴛ sᴜᴄᴄᴇssꜰᴜʟʟʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝.")
     except UserAlreadyParticipant:
-        return await client.send_message(chat_id, "🙂ᴀssɪsᴛᴀɴᴛ ᴀʟʀᴇᴀᴅʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ ʙᴀʙʏ")
+        return await client.send_message(chat_id, "🙂ᴀssɪsᴛᴀɴᴛ ᴀʟʀᴇᴀᴅʏ ᴊᴏɪɴᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝")
 
 
 @bot.on_message(filters.command("start") & filters.group)
 async def start_group(_, message):
-    await message.reply_photo(photo="https://telegra.ph/file/22ae93512721d5186932e.jpg",
-                              caption = f"ʜᴇʏ 😘 {message.from_user.mention},\n ᴍᴇ ɪᴢ ᴅᴇᴅ ʙᴀʙʏ​ 😴",
+    await message.reply_photo(photo="https://telegra.ph/file/351ca05cfa76bf7b9e058.jpg",
+                              caption = f"ʜᴇʏ 👋 {message.from_user.mention},\n Waan Iska Hurdayaa​ 😴",
                               reply_markup = BUTTONS)
 
 
@@ -250,7 +250,7 @@ async def video_play(_, message):
     except:
         return await message.reply_text(f"<b>Usage:</b> <code>/{state} [query]</code>")
     chat_id = message.chat.id
-    m = await message.reply_text("🔎")
+    m = await message.reply_text("Searching.....")
     if state == "play":
         damn = AudioPiped
         ded = yt_audio
@@ -284,7 +284,7 @@ async def video_play(_, message):
         except:
             ice, playlink = await ded(link)
             if ice == "0":
-                return await m.edit("» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ʙᴀʙʏ !")               
+                return await m.edit("» ɴᴏᴛ ғᴏᴜɴᴅ, ᴛʀʏ sᴇᴀʀᴄʜɪɴɢ ᴡɪᴛʜ ᴛʜᴇ sᴏɴɢ ɴᴀᴍᴇ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ !")               
     except Exception as e:
         return await m.edit(str(e))
     
@@ -315,9 +315,9 @@ async def skip(_, message):
     if len(message.command) < 2:
         op = await skip_current_song(chat_id)
         if op == 0:
-            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ᴡʜᴀᴛ ᴛᴏ sᴋɪᴘ ʙᴀʙʏ 🥲")
+            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ᴡʜᴀᴛ ᴛᴏ sᴋɪᴘ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥲")
         elif op == 1:
-            await message.reply_text("» ᴛʀᴀᴄᴋ sᴋɪᴘᴘᴇᴅ ʙʏ {} ʙᴀʙʏ🤔".format( message.from_user.mention ), )
+            await message.reply_text("» ᴛʀᴀᴄᴋ sᴋɪᴘᴘᴇᴅ ʙʏ {} 🤫╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«🤫".format( message.from_user.mention ), )
     else:
         skip = message.text.split(None, 1)[1]
         out = "🗑 <b>Removed the following song(s) from the queue:</b> \n"
@@ -358,7 +358,7 @@ async def playlist(_, message):
                 out = out + "\n" + f"<b>#️⃣ {x}</b> - [{title}]({link}) | `{type}` \n"
             await message.reply_text(out, disable_web_page_preview=True)
     else:
-        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
     
 
 @bot.on_message(filters.command(["end", "stop"]) & filters.group)
@@ -369,9 +369,9 @@ async def end(_, message):
     if chat_id in QUEUE:
         await app.leave_group_call(chat_id)
         clear_queue(chat_id)
-        await message.reply_text("» sᴛʀᴇᴀᴍ ᴇɴᴅᴇᴅ ʙʏ {} ʙᴀʙʏ🥺".format( message.from_user.mention ), )
+        await message.reply_text("» sᴛʀᴇᴀᴍ ᴇɴᴅᴇᴅ ʙʏ {} ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥺".format( message.from_user.mention ), )
     else:
-        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
         
 
 @bot.on_message(filters.command("pause") & filters.group)
@@ -382,11 +382,11 @@ async def pause(_, message):
     if chat_id in QUEUE:
         try:
             await app.pause_stream(chat_id)
-            await message.reply_text("» ᴛʀᴀᴄᴋ ᴘᴀᴜsᴇᴅ ʙʏ {} ʙᴀʙʏ😫".format( message.from_user.mention ), )
+            await message.reply_text("» ᴛʀᴀᴄᴋ ᴘᴀᴜsᴇᴅ ʙʏ {} ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 😫".format( message.from_user.mention ), )
         except:
-            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
     else:
-        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
         
         
 @bot.on_message(filters.command("resume") & filters.group)
@@ -397,11 +397,11 @@ async def resume(_, message):
     if chat_id in QUEUE:
         try:
             await app.resume_stream(chat_id)
-            await message.reply_text("» ᴛʀᴀᴄᴋ ʀᴇsᴜᴍᴇᴅ ʙʏ {} ʙᴀʙʏ🤗".format( message.from_user.mention ), )
+            await message.reply_text("» ᴛʀᴀᴄᴋ ʀᴇsᴜᴍᴇᴅ ʙʏ {} ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🤗".format( message.from_user.mention ), )
         except:
-            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
     else:
-        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
         
         
 @bot.on_message(filters.command("mute") & filters.group)
@@ -414,9 +414,9 @@ async def mute(_, message):
             await app.mute_stream(chat_id)
             await message.reply_text("🔇 Stream Muted by {} Baby.".format( message.from_user.mention ), )
         except:
-            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
     else:
-        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
         
         
 @bot.on_message(filters.command("unmute") & filters.group)
@@ -429,9 +429,9 @@ async def unmute(_, message):
             await app.unmute_stream(chat_id)
             await message.reply_text("🔊 Stream unmuted by {} Baby.".format( message.from_user.mention ), )
         except:
-            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+            await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
     else:
-        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ʙᴀʙʏ 🥱")
+        await message.reply_text("» ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ ╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝ 🥱")
         
         
 @bot.on_message(filters.command(["restart", "fuck"]))
