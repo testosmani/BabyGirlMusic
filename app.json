@@ -3,7 +3,7 @@
   "description": "A Telegram Bot To Play Songs In Telegram Group Video Chats. Powered by PyTGCalls.",
   "keywords": ["Music", " Videochat", "Voicechat", "Telegram"],
   "logo": "https://telegra.ph/file/36524539cc2546a3d7eb6.jpg",
-  "repository": "https://github.com/AnonymousBoy1025/BabyGirlMusic",
+  "repository": "https://github.com/testosmani/mssrosan",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
