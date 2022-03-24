@@ -1,13 +1,13 @@
 {
-  "name": "♡︎ ʙᴀʙʏ ɢɪʀʟ ᴍᴜsɪᴄ ♡︎",
+  "name": "♡︎╚»★𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻★«╝♡︎",
   "description": "A Telegram Bot To Play Songs In Telegram Group Video Chats. Powered by PyTGCalls.",
   "keywords": ["Music", " Videochat", "Voicechat", "Telegram"],
-  "logo": "https://telegra.ph/file/22ae93512721d5186932e.jpg",
+  "logo": "https://telegra.ph/file/36524539cc2546a3d7eb6.jpg",
   "repository": "https://github.com/AnonymousBoy1025/BabyGirlMusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram Session String Get From https://t.me/AnonymousStringBot",
+      "description": "Pyrogram Session String Get From https://repo.com/@Ribaj/Ribaj",
       "required": true
     },
     "BOT_TOKEN": {
@@ -17,22 +17,22 @@
     "BOT_USERNAME": {
       "description": "Username of the bot without @, Get this value from @BotFather",
       "required": true,
-      "value": "Devil_X_Robot"
+      "value": "Mss_Rosan_Bot"
     },
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps",
       "required": true,
-      "value": "2719576"
+      "value": "9253900"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps",
       "required": true,
-      "value": "ab88e6ee1be33f53db445baf874e1c74"
+      "value": "44e9030af0eb6cde66604af0c1cbd16f"
     },
     "OWNER_ID": {
       "description": "Telegram I'd of the owner of bot",
       "required": true,
-      "value": "1356469075"
+      "value": "1008271006"
     }
   }
 }
