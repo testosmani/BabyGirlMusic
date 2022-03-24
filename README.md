@@ -54,7 +54,7 @@ and <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/testosmani/mssrosan"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="200" height="35.45"/></a></p>
 
 ### Special Credits 💖
-- [╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝](https://github.com/ribajosmani): Developer
+- [╚»𝗢𝘀𝗺𝗮𝗻𝗶 𝗥𝗼𝗯𝗼𝘁«╝](https://github.com/Ribaj): Developer
 
 ### Support 🎑
 <a href="https://telegram.me/teamosmani"><img src="https://img.shields.io/badge/-teamosmani-blue.svg?style=for-the-badge&logo=Telegram"></a>
